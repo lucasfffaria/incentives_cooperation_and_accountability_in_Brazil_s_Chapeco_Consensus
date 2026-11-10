@@ -1,0 +1,48 @@
+{
+ "by_class": [
+  {
+   "cls": "<5k",
+   "n_plans": 158,
+   "imp_value": 0.2324829448698505,
+   "share_without_impediments": 0.7675170551301496,
+   "kappa": 0.3096004684530023
+  },
+  {
+   "cls": "5-10k",
+   "n_plans": 134,
+   "imp_value": 0.18782995032770988,
+   "share_without_impediments": 0.8121700496722901,
+   "kappa": 0.4141580141408788
+  },
+  {
+   "cls": "10-20k",
+   "n_plans": 157,
+   "imp_value": 0.14293196933695027,
+   "share_without_impediments": 0.8570680306630497,
+   "kappa": 0.5182864739096416
+  },
+  {
+   "cls": "20-50k",
+   "n_plans": 115,
+   "imp_value": 0.11689201011101265,
+   "share_without_impediments": 0.8831079898889873,
+   "kappa": 0.703631058442738
+  },
+  {
+   "cls": "50-100k",
+   "n_plans": 61,
+   "imp_value": 0.10412385258254556,
+   "share_without_impediments": 0.8958761474174545,
+   "kappa": 0.7993019557674447
+  },
+  {
+   "cls": ">100k",
+   "n_plans": 59,
+   "imp_value": 0.15972312528882826,
+   "share_without_impediments": 0.8402768747111717,
+   "kappa": 0.9091923056266321
+  }
+ ],
+ "nu_all": 0.13114895546230604,
+ "nu_excl_large": 0.16960603613664135
+}

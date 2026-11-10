@@ -1,0 +1,19 @@
+codigo_parlamentar_emenda_plano_acao,nome_parlamentar_emenda_plano_acao,uf_mais_frequente_beneficiario,cargo,ano_eleicao,uf_eleicao,nm_urna_eleicao,partido_eleicao,match
+2210,Esperidião Amin,SC,SENADOR,2018.0,SC,ESPERIDIÃO AMIN,PP,nome_unico
+2855,Pedro Uczai,SC,DEPUTADO FEDERAL,2022.0,SC,PROFESSOR PEDRO UCZAI,PT,fuzzy_tokens_uf
+2925,Carmen Zanotto,SC,DEPUTADO FEDERAL,2022.0,SC,CARMEN ZANOTTO,CIDADANIA,nome_unico
+3929,Carlos Chiodini,SC,DEPUTADO FEDERAL,2022.0,SC,CARLOS CHIODINI,MDB,nome_unico
+3932,Caroline de Toni,SC,,,,,,sem_match
+3949,Daniel Freitas,SC,DEPUTADO FEDERAL,2022.0,SC,DANIEL FREITAS,PL,nome_unico
+3980,Fabio Schiochet,SC,DEPUTADO FEDERAL,2022.0,SC,FABIO SCHIOCHET,UNIÃO,nome_unico
+4062,Ricardo Guidi,SC,DEPUTADO FEDERAL,2022.0,SC,RICARDO GUIDI,PSD,nome_unico
+4209,Jorge Goetten,SC,DEPUTADO FEDERAL,2022.0,SC,JORGE GOETTEN,PL,nome_unico
+4251,Ivete da Silveira,SC,,,,,,sem_match
+4273,Jorge Seif,SC,SENADOR,2022.0,SC,JORGE SEIF,PL,nome_unico
+4325,Cobalchini,SC,DEPUTADO FEDERAL,2022.0,SC,COBALCHINI,MDB,nome_unico
+4339,Daniela Reinehr,SC,DEPUTADO FEDERAL,2022.0,SC,DANIELA REINEHR,PL,nome_unico
+4392,Ismael,SC,DEPUTADO FEDERAL,2022.0,SC,ISMAEL,PSD,nome_unico
+4401,Julia Zanatta,SC,DEPUTADO FEDERAL,2022.0,SC,JULIA ZANATTA,PL,nome_unico
+4448,Pezenti,SC,DEPUTADO FEDERAL,2022.0,SC,RAFAEL PEZENTI,MDB,fuzzy_tokens_uf
+4493,Zé Trovão,SC,DEPUTADO FEDERAL,2022.0,SC,ZÉ TROVÃO,PL,nome_unico
+9055,Gilson Marques,SC,DEPUTADO FEDERAL,2022.0,SC,GILSON MARQUES,NOVO,nome_unico

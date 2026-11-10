@@ -1,0 +1,29 @@
+{
+ "states_losing_dep": 19,
+ "seats_in_losing_states_dep": 347,
+ "senators_in_losing_states_dep": 57,
+ "states_losing_all": 18,
+ "seats_in_losing_states_all": 203,
+ "senators_in_losing_states_all": 54,
+ "national_pc_dep": 93.97049910529189,
+ "national_pc_all": 121.29214252087972,
+ "sc_change_dep": 0.20152792597689584,
+ "sc_change_all": 0.15283750599143842,
+ "max_gain_dep": [
+  "SP",
+  0.6026675118064153
+ ],
+ "max_loss_dep": [
+  "RR",
+  -0.7989527064051307
+ ],
+ "max_gain_all": [
+  "SP",
+  0.9173284246395121
+ ],
+ "max_loss_all": [
+  "RR",
+  -0.8464966086502848
+ ],
+ "ratio_max_min_pc_sq_all": 12.490462964895714
+}

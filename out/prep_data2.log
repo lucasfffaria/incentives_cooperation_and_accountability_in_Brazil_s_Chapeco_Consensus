@@ -1,0 +1,187 @@
+{
+ "n_mun": 295,
+ "pop": 7610361.0,
+ "rev_impute_r2": 0.8097206340012212,
+ "n_rev_imputed": 41,
+ "n_tax_imputed": 41,
+ "term_limited_agreement_with_proxy": 0.9423728813559322,
+ "pix_deputies_total": 243253914.75,
+ "pix_senators_total": 83337635.7,
+ "pix_deputy_totals": {
+  "Carmen Zanotto": 10938277.35,
+  "Caroline de Toni": 18461510.1,
+  "Jorge Goetten": 18758505.15,
+  "Julia Zanatta": 18451612.08,
+  "Daniel Freitas": 15222225.15,
+  "Daniela Reinehr": 17103224.16,
+  "Zé Trovão": 14406450.3,
+  "Fabio Schiochet": 18204112.08,
+  "Pedro Uczai": 2760120.0,
+  "Ana Paula Lima": 0.0,
+  "Cobalchini": 19301026.14,
+  "Carlos Chiodini": 18827812.08,
+  "Pezenti": 28222912.08,
+  "Ismael": 16594776.0,
+  "Ricardo Guidi": 20085112.08,
+  "Gilson Marques": 5916240.0
+ },
+ "low_pix_deputies": [
+  "Pedro Uczai",
+  "Ana Paula Lima",
+  "Gilson Marques"
+ ],
+ "targeting_ppml": {
+  "lvs": [
+   0.689285692322721,
+   0.071285108137788
+  ],
+  "lpop": [
+   0.45231720409543474,
+   0.08038461112203765
+  ],
+  "same": [
+   0.6543771800374169,
+   0.18836298477200575
+  ],
+  "lgdp": [
+   -0.5726384959740557,
+   0.29814758502859756
+  ]
+ },
+ "targeting_n": 3835,
+ "reelected_2026": [
+  "Julia Zanatta",
+  "Daniel Freitas",
+  "Daniela Reinehr",
+  "Zé Trovão",
+  "Pedro Uczai",
+  "Ana Paula Lima",
+  "Pezenti",
+  "Ricardo Guidi",
+  "Gilson Marques"
+ ],
+ "new_2026": [
+  "ANA PAULA DA SILVA",
+  "CARLOS HENRIQUE DE LIMA",
+  "GEOVANIA DE SÁ",
+  "GIOVANA VITO MONDARDO",
+  "JAIR RENAN VALLE BOLSONARO",
+  "JOSE MILTON SCHEFFER",
+  "JULIO CESAR GARCIA"
+ ],
+ "recipients_median": 29,
+ "sq_pc_by_size_mean": {
+  "<5k": 259.0784682048971,
+  "5-10k": 177.37396604600977,
+  "10-20k": 172.55521278270905,
+  "20-50k": 99.72130529911058,
+  "50-100k": 55.86185681729733,
+  ">100k": 36.980157279281954
+ },
+ "sq_pc_by_size_popw": {
+  "<5k": 254.9112048955714,
+  "5-10k": 183.2852250061894,
+  "10-20k": 159.19205755813604,
+  "20-50k": 98.76723496608872,
+  "50-100k": 52.65850117540932,
+  ">100k": 31.98558169606603
+ },
+ "n_by_size": {
+  "<5k": 102,
+  "5-10k": 60,
+  "10-20k": 61,
+  "20-50k": 40,
+  "50-100k": 18,
+  ">100k": 14
+ },
+ "pix_zero_share": 0.2983050847457627,
+ "sq_zero_share": 0.2542372881355932,
+ "corr_sqpc_need": 0.21974840917104313,
+ "corr_sqpc_need_popw": 0.3370708684491562,
+ "state_pc": 78.20916773856062,
+ "gini_sq_pc_popw": 0.6365365063302311,
+ "sq_variants": {
+  "main": {
+   "pc_lt5k": 254.9112048955714,
+   "pc_gt100k": 31.98558169606603,
+   "gini_popw": 0.6365365063302311,
+   "zero_share": 0.2542372881355932,
+   "neediest_fifth_ratio": 2.0436975358220577
+  },
+  "pooled_low": {
+   "pc_lt5k": 283.68565109298027,
+   "pc_gt100k": 24.997425096364,
+   "gini_popw": 0.7221174627918656,
+   "zero_share": 0.3050847457627119,
+   "neediest_fifth_ratio": 2.174832732046925
+  },
+  "pooled": {
+   "pc_lt5k": 298.54716576126987,
+   "pc_gt100k": 20.365756011715238,
+   "gini_popw": 0.7227921523928522,
+   "zero_share": 0.3050847457627119,
+   "neediest_fifth_ratio": 2.227513508936518
+  },
+  "health": {
+   "pc_lt5k": 166.560186
+{
+ "run_2020": 0.6896551724137931,
+ "win_2020": 0.7421383647798742,
+ "run_2024": 0.7076023391812866,
+ "win_2024": 0.6694214876033058,
+ "n_eligible_2020": 232,
+ "n_ran_2020": 160,
+ "n_eligible_2024": 171,
+ "n_ran_2024": 121,
+ "switch_reelected_2020": 0.13559322033898305,
+ "switch_reelected_2024": 0.3493975903614458,
+ "open_kept_2020": 0.14814814814814814,
+ "open_kept_2024": 0.18452380952380953,
+ "n_open_2020": 135,
+ "n_open_2024": 168,
+ "lost_kept_2020": 0.0,
+ "lost_kept_2024": 0.0,
+ "open_kept_2020_all_not_reelected": 0.1111111111111111,
+ "open_kept_2024_all_not_reelected": 0.14423076923076922,
+ "switch_to_PL_2024_share_of_switchers": 0.6206896551724138,
+ "PL_share_2020": 0.09152542372881356,
+ "PL_share_2024": 0.3050847457627119,
+ "PL_share_open_2024": 0.3076923076923077,
+ "lame_duck_share_2021_24": 0.4083044982698962,
+ "term_limited_share_2025_28": 0.3220338983050847,
+ "party_shares_2016": {
+  "MDB": 0.3424,
+  "PSD": 0.2,
+  "PP": 0.1559,
+  "PSDB": 0.1322,
+  "PT": 0.0678,
+  "PL": 0.0407,
+  "PSB": 0.0339,
+  "UNIÃO": 0.0102,
+  "PDT": 0.0102,
+  "PRD": 0.0034,
+  "CIDADANIA": 0.0034
+ },
+ "party_shares_2020": {
+  "MDB": 0.3299,
+  "PP": 0.1787,
+  "PSD": 0.1443,
+  "PSDB": 0.11,
+  "PL": 0.0928,
+  "UNIÃO": 0.0687,
+  "PT": 0.0378,
+  "PODE": 0.0103,
+  "PDT": 0.0103,
+  "REPUBLICANOS": 0.0069,
+  "CIDADANIA": 0.0034,
+  "PSB": 0.0034,
+  "PRD": 0.0034
+ },
+ "party_shares_2024": {
+  "PL": 0.3051,
+  "MDB": 0.2373,
+  "PP": 0.1797,
+  "PSD": 0.139,
+  "PSDB": 0.0441,
+  "UNIÃO": 0.0305,
+  "PT": 0.023

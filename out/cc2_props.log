@@ -1,0 +1,50 @@
+{
+ "P1_max_abs_err_legislative_skill": 0.009022829262048782,
+ "P1_max_abs_err_brokerage_skill": 0.007435923448274595,
+ "P1_derivative_sign_violations": 0,
+ "P2_max_abs_err_effort": 2.4983459347982517e-06,
+ "P2_condition_violations": 0,
+ "P4_hurdle_violations": 0,
+ "P4_hurdle_decreasing_in_completion_share": 1.0,
+ "P3_violations": 0,
+ "P3_engine_fixed_point_residual": 3.885780586188048e-16,
+ "P3_engine_mean_change_more_future": 0.07785410524590311,
+ "P3_engine_mean_change_more_excludable": 0.06274728271382773,
+ "P5_crowding_out_max_abs_err": 4.998309460435557e-06,
+ "P5_band_peak_at_threshold": 0.0,
+ "P6_waterfilling_violations": 0,
+ "P7_capacity_range_with_multiple_steady_states_bar": [
+  -3.5,
+  -1.15
+ ],
+ "P7_multiple_steady_states_without_bar": 0,
+ "P7_bar_lowers_map_everywhere": true,
+ "P7_example_fixed_points": {
+  "-4.0": [
+   0.058
+  ],
+  "-3.0": [
+   0.058,
+   0.549,
+   0.754
+  ],
+  "-2.5": [
+   0.058,
+   0.439,
+   0.755
+  ],
+  "-2.0": [
+   0.058,
+   0.332,
+   0.755
+  ],
+  "-1.5": [
+   0.061,
+   0.219,
+   0.755
+  ],
+  "0.0": [
+   0.755
+  ]
+ }
+}

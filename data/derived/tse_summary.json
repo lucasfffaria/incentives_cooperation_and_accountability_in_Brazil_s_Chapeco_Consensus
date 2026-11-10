@@ -1,0 +1,227 @@
+{
+ "seats_2022": {
+  "PL": 6,
+  "MDB": 3,
+  "PT": 2,
+  "PSD": 2,
+  "CIDADANIA": 1,
+  "UNIÃO": 1,
+  "NOVO": 1
+ },
+ "nominal_votes_2022": 3819370,
+ "valid_nominal_votes_2022": 3812045,
+ "party_nominal_share_2022": {
+  "PL": 0.2422,
+  "PT": 0.1155,
+  "MDB": 0.1063,
+  "PSD": 0.1009,
+  "UNIÃO": 0.0716,
+  "NOVO": 0.0618,
+  "PP": 0.0531,
+  "PODE": 0.0477,
+  "PSDB": 0.0351,
+  "CIDADANIA": 0.0349,
+  "REPUBLICANOS": 0.0307,
+  "PATRIOTA": 0.0185,
+  "PSB": 0.0158,
+  "PTB": 0.0156,
+  "PSOL": 0.015
+ },
+ "n_candidates_2022": 292,
+ "seats_2026": {
+  "PL": 7,
+  "PT": 2,
+  "PODE": 1,
+  "REPUBLICANOS": 1,
+  "NOVO": 1,
+  "PCDOB": 1,
+  "PP": 1,
+  "PSD": 1,
+  "MDB": 1
+ },
+ "nominal_votes_2026": 4138046,
+ "valid_nominal_votes_2026": 4109395,
+ "party_nominal_share_2026": {
+  "PL": 0.3656,
+  "PT": 0.1328,
+  "MDB": 0.0916,
+  "REPUBLICANOS": 0.0817,
+  "NOVO": 0.0729,
+  "PSD": 0.0677,
+  "PODE": 0.0525,
+  "PP": 0.0448,
+  "UNIÃO": 0.032,
+  "PCDOB": 0.028,
+  "MISSÃO": 0.0112,
+  "PSOL": 0.0091,
+  "PRD": 0.0026,
+  "PDT": 0.0025,
+  "AVANTE": 0.0013
+ },
+ "n_candidates_2026": 224,
+ "deputies_2022": [
+  {
+   "pix_name": "Carmen Zanotto",
+   "ballot_2022": "CARMEN ZANOTTO",
+   "party_2022": "CIDADANIA",
+   "votes_2022": 130138,
+   "ran_2026": 0,
+   "party_2026": null,
+   "votes_2026": 0,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Caroline de Toni",
+   "ballot_2022": "CAROL DE TONI",
+   "party_2022": "PL",
+   "votes_2022": 227632,
+   "ran_2026": 0,
+   "party_2026": null,
+   "votes_2026": 0,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Jorge Goetten",
+   "ballot_2022": "JORGE GOETTEN",
+   "party_2022": "PL",
+   "votes_2022": 159339,
+   "ran_2026": 1,
+   "party_2026": "REPUBLICANOS",
+   "votes_2026": 43449,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Julia Zanatta",
+   "ballot_2022": "JULIA ZANATTA",
+   "party_2022": "PL",
+   "votes_2022": 111588,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 560223,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Daniel Freitas",
+   "ballot_2022": "DANIEL FREITAS",
+   "party_2022": "PL",
+   "votes_2022": 108001,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 76458,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Daniela Reinehr",
+   "ballot_2022": "DANIELA REINEHR",
+   "party_2022": "PL",
+   "votes_2022": 84631,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 96253,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Zé Trovão",
+   "ballot_2022": "ZÉ TROVÃO",
+   "party_2022": "PL",
+   "votes_2022": 71140,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 89830,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Fabio Schiochet",
+   "ballot_2022": "FABIO SCHIOCHET",
+   "party_2022": "UNIÃO",
+   "votes_2022": 51824,
+   "ran_2026": 1,
+   "party_2026": "UNIÃO",
+   "votes_2026": 80382,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Pedro Uczai",
+   "ballot_2022": "PROFESSOR PEDRO UCZAI",
+   "party_2022": "PT",
+   "votes_2022": 173531,
+   "ran_2026": 1,
+   "party_2026": "PT",
+   "votes_2026": 164389,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Ana Paula Lima",
+   "ballot_2022": "ANA PAULA LIMA",
+   "party_2022": "PT",
+   "votes_2022": 148781,
+   "ran_2026": 1,
+   "party_2026": "PT",
+   "votes_2026": 201377,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Cobalchini",
+   "ballot_2022": "COBALCHINI",
+   "party_2022": "MDB",
+   "votes_2022": 98124,
+   "ran_2026": 1,
+   "party_2026": "MDB",
+   "votes_2026": 99751,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Carlos Chiodini",
+   "ballot_2022": "CARLOS CHIODINI",
+   "party_2022": "MDB",
+   "votes_2022": 80089,
+   "ran_2026": 0,
+   "party_2026": null,
+   "votes_2026": 0,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Pezenti",
+   "ballot_2022": "RAFAEL PEZENTI",
+   "party_2022": "MDB",
+   "votes_2022": 68208,
+   "ran_2026": 1,
+   "party_2026": "MDB",
+   "votes_2026": 125010,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Ismael",
+   "ballot_2022": "ISMAEL",
+   "party_2022": "PSD",
+   "votes_2022": 110531,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 74644,
+   "elected_2026": 0
+  },
+  {
+   "pix_name": "Ricardo Guidi",
+   "ballot_2022": "RICARDO GUIDI",
+   "party_2022": "PSD",
+   "votes_2022": 74066,
+   "ran_2026": 1,
+   "party_2026": "PL",
+   "votes_2026": 78698,
+   "elected_2026": 1
+  },
+  {
+   "pix_name": "Gilson Marques",
+   "ballot_2022": "GILSON MARQUES",
+   "party_2022": "NOVO",
+   "votes_2022": 87894,
+   "ran_2026": 1,
+   "party_2026": "NOVO",
+   "votes_2026": 117197,
+   "elected_2026": 1
+  }
+ ],
+ "n_ran_2026": 13,
+ "n_reelected_2026": 9,
+ "n_switched_party": 3
+}

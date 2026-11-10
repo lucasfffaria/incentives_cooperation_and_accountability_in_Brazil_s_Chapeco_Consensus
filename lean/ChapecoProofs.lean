@@ -1,0 +1,11 @@
+import ChapecoProofs.Basic
+import ChapecoProofs.P1Selection
+import ChapecoProofs.P2Effort
+import ChapecoProofs.P3Cooperation
+import ChapecoProofs.P4Hurdle
+import ChapecoProofs.P5CrowdingOut
+import ChapecoProofs.P6Tilt
+import ChapecoProofs.P7SanctionTrap
+import ChapecoProofs.SP8Sanctions
+import ChapecoProofs.SP9Inspection
+import ChapecoProofs.Audit
