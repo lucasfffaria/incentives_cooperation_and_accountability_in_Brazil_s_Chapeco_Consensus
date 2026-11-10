@@ -1,0 +1,72 @@
+                   region  n                polo polo_party  polo_pop_share plur_1m1v  share_1m1v  tie_1m1v  plur_pop  share_pop                                           bloc_1m1v  bloc_share
+     Grande Florianópolis 22       Florianópolis        PSD        0.395922        PL    0.454545     False       PSD   0.595131 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.545455
+     Médio Vale do Itajaí 14            Blumenau         PL        0.444373        PL    0.571429     False        PL   0.919875                                    Right (PL, NOVO)    0.642857
+        Foz do Rio Itajaí 11              Itajaí         PL        0.325635       MDB    0.363636      True        PL   0.460799 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.727273
+                 Nordeste  6           Joinville       NOVO        0.791692       MDB    0.333333      True      NOVO   0.791692 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.666667
+              Carbonífera 12            Criciúma        PSD        0.480024        PP    0.416667     False       PSD   0.616821 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.916667
+                    Oeste 27             Chapecó        PSD        0.623062       MDB    0.481481     False       PSD   0.662152 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.851852
+                   Laguna 18             Tubarão         PL        0.288543        PL    0.388889     False        PL   0.664962 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.555556
+           Planalto Norte 13    São Bento do Sul         PL        0.224723        PL    0.461538     False        PL   0.679280 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.461538
+          Vale do Itapocu  7      Jaraguá do Sul        MDB        0.550690        PL    0.285714      True       MDB   0.550690 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.571429
+      Alto Vale do Itajaí 28          Rio do Sul         PL        0.234297        PL    0.428571     False        PL   0.531381 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.535714
+        Serra Catarinense 18               Lages  CIDADANIA        0.558860        PL    0.222222     False CIDADANIA   0.570096 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.611111
+Alto Vale do Rio do Peixe 20             Caçador         PL        0.256454       MDB    0.350000     False        PL   0.429192 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.750000
+            Extremo Oeste 30 São Miguel do Oeste         PL        0.183731        PL    0.366667     False        PL   0.485807 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.500000
+  Extremo Sul Catarinense 15           Araranguá        MDB        0.323708        PP    0.400000     False       MDB   0.565212 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.733333
+                  Xanxerê 21             Xanxerê         PL        0.249070       MDB    0.238095      True       MDB   0.305161 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.619048
+               Meio Oeste 20        Campos Novos        MDB        0.190708       MDB    0.250000      True      PSDB   0.341960 Centre (MDB, PP, PSD, UNIÃO, REPUBLICANOS, PODEMOS)    0.600000
+ Alto Uruguai Catarinense 13           Concórdia         PL        0.527402        PL    0.538462     False        PL   0.691605                                    Right (PL, NOVO)    0.538462
+
+Party shares (ties counted for the first-listed party; see tie flags):
+              mayors  pop_governed  condes_1m1v  condes_popweighted
+PL              30.5          36.3         52.9                47.1
+MDB             23.7          14.8         35.3                17.6
+PP              18.0           7.8         11.8                 0.0
+PSD             13.9          26.3          0.0                17.6
+PSDB             4.4           1.9          0.0                 5.9
+UNIÃO            3.1           1.1          0.0                 0.0
+PT               2.4           0.4          0.0                 0.0
+REPUBLICANOS     1.4           0.3          0.0                 0.0
+NOVO             1.0           8.4          0.0                 5.9
+PODEMOS          1.0           0.6          0.0                 0.0
+CIDADANIA        0.7           2.2          0.0                 5.9
+ties 1m1v: [['Foz do Rio Itajaí', 'MDB'], ['Nordeste', 'MDB'], ['Vale do Itapocu', 'PL'], ['Xanxerê', 'MDB'], ['Meio Oeste', 'MDB']]  ties pop: []
+
+Top parties per region (1m1v, all tied listed):
+  Alto Uruguai Catarinense: ['PL'] (13)
+  Alto Vale do Itajaí: ['PL'] (28)
+  Alto Vale do Rio do Peixe: ['MDB'] (20)
+  Carbonífera: ['PP'] (12)
+  Extremo Oeste: ['PL'] (30)
+  Extremo Sul Catarinense: ['PP'] (15)
+  Foz do Rio Itajaí: ['PSD', 'MDB'] (11)
+  Grande Florianópolis: ['PL'] (22)
+  Laguna: ['PL'] (18)
+  Meio Oeste: ['MDB', 'PSDB'] (20)
+  Médio Vale do Itajaí: ['PL'] (14)
+  Nordeste: ['PSD', 'MDB'] (6)
+  Oeste: ['MDB'] (27)
+  Planalto Norte: ['PL'] (13)
+  Serra Catarinense: ['PL'] (18)
+  Vale do Itapocu: ['PSD', 'PL'] (7)
+  Xanxerê: ['MDB', 'PL'] (21)
+
+Normalized Banzhaf power of the polo city:
+                   region  n                polo  polo_pop_share  banzhaf_1m1v  banzhaf_pop  banzhaf_dual  smallest_share_pop  smallest_share_dual
+                 Nordeste  6           Joinville           0.792         0.167        1.000         0.348               0.000                0.130
+                    Oeste 27             Chapecó           0.623         0.037        1.000         0.223               0.000                0.030
+        Serra Catarinense 18               Lages           0.559         0.056        1.000         0.230               0.000                0.045
+          Vale do Itapocu  7      Jaraguá do Sul           0.551         0.143        1.000         0.412               0.000                0.098
+ Alto Uruguai Catarinense 13           Concórdia           0.527         0.077        1.000         0.312               0.000                0.057
+              Carbonífera 12            Criciúma           0.480         0.083        0.981         0.268               0.000                0.066
+     Médio Vale do Itajaí 14            Blumenau           0.444         0.071        0.795         0.233               0.003                0.055
+     Grande Florianópolis 22       Florianópolis           0.396         0.045        0.479         0.156               0.003                0.034
+        Foz do Rio Itajaí 11              Itajaí           0.326         0.091        0.425         0.224               0.016                0.061
+  Extremo Sul Catarinense 15           Araranguá           0.324         0.067        0.509         0.222               0.008                0.046
+                   Laguna 18             Tubarão           0.289         0.056        0.396         0.151               0.005                0.041
+Alto Vale do Rio do Peixe 20             Caçador           0.256         0.050        0.302         0.122               0.006                0.037
+                  Xanxerê 21             Xanxerê           0.249         0.048        0.306         0.144               0.008                0.033
+      Alto Vale do Itajaí 28          Rio do Sul           0.234         0.036        0.349         0.125               0.006                0.027
+           Planalto Norte 13    São Bento do Sul           0.225         0.077        0.253         0.153               0.014                0.050
+               Meio Oeste 20        Campos Novos           0.191         0.050        0.209         0.099               0.011                0.038
+            Extremo Oeste 30 São Miguel do Oeste           0.184         0.033        0.221         0.093               0.007                0.025

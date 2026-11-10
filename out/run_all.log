@@ -1,0 +1,17 @@
+== data (0s)
+== engine tests (29s)
+ALL PASS
+== propositions (46s)
+== experiment (82s)
+== mechanisms (439s)
+== analysis (461s)
+== robustness (466s)
+== sensitivity R0 (779s)
+== sensitivity R15 (902s)
+== figures (1088s)
+== tables (1125s)
+== manuscript (1126s)
+article.md references: 75 | unmatched citations: [('Bueno de Mesquita', '2006'), ('Foco', '2022'), ('PL', '2027')]
+supplement.md references: 40 | unmatched citations: [('Censo Demográfico', '2022'), ('Comissão Intergestores Bipartite de Santa Catarina', '2024'), ('Foco', '2022'), ("In Santa Catarina's", '2024'), ('Real', '2024'), ('SC', '2016'), ('SC', '2020'), ('SC', '2024')]
+built
+== done (1142s)

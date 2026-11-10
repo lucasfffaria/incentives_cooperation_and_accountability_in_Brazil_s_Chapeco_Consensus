@@ -1,0 +1,244 @@
+== R0_beats_SQ_need rate 0.184 tree acc 0.86 base 0.816
+   KS: [('zeta', 0.45), ('sig_bar', 0.39), ('s_bar', 0.23), ('phi_cx', 0.21), ('alpha_e', 0.16), ('nu', 0.15)]
+|--- zeta <= 0.308
+|   |--- sig_bar <= 0.080
+|   |   |--- zeta <= 0.067
+|   |   |   |--- class: False
+|   |   |--- zeta >  0.067
+|   |   |   |--- class: False
+|   |--- sig_bar >  0.080
+|   |   |--- q_loc0 <= 0.679
+|   |   |   |--- class: False
+|   |   |--- q_loc0 >  0.679
+|   |   |   |--- class: True
+|--- zeta >  0.308
+|   |--- sig_bar <= 0.183
+|   |   |--- s_bar <= 0.775
+|   |   |   |--- class: False
+|   |   |--- s_bar >  0.775
+|   |   |   |--- class: False
+|   |--- sig_bar >  0.183
+|   |   |--- s_bar <= 0.787
+|   |   |   |--- class: False
+|   |   |--- s_bar >  0.787
+|   |   |   |--- class: False
+
+== R0_beats_SQ_real rate 0.705 tree acc 0.784 base 0.705
+   KS: [('sig_bar', 0.35), ('nu', 0.31), ('phi_cx', 0.25), ('c_adm', 0.24), ('sd_sig', 0.16), ('q_loc0', 0.15)]
+|--- sig_bar <= 0.083
+|   |--- nu <= 0.137
+|   |   |--- phi_cx <= 0.109
+|   |   |   |--- class: True
+|   |   |--- phi_cx >  0.109
+|   |   |   |--- class: False
+|   |--- nu >  0.137
+|   |   |--- c_adm <= 0.026
+|   |   |   |--- class: True
+|   |   |--- c_adm >  0.026
+|   |   |   |--- class: True
+|--- sig_bar >  0.083
+|   |--- phi_cx <= 0.177
+|   |   |--- nu <= 0.150
+|   |   |   |--- class: True
+|   |   |--- nu >  0.150
+|   |   |   |--- class: True
+|   |--- phi_cx >  0.177
+|   |   |--- nu <= 0.068
+|   |   |   |--- class: False
+|   |   |--- nu >  0.068
+|   |   |   |--- class: True
+
+== R0_institutions_add_value rate 0.516 tree acc 0.758 base 0.516
+   KS: [('sig_bar', 0.43), ('phi_cx', 0.28), ('sd_sig', 0.18), ('s_bar', 0.18), ('q_loc0', 0.15), ('alpha_e', 0.15)]
+|--- sig_bar <= 0.092
+|   |--- phi_cx <= 0.170
+|   |   |--- sd_sig <= 0.227
+|   |   |   |--- class: False
+|   |   |--- sd_sig >  0.227
+|   |   |   |--- class: True
+|   |--- phi_cx >  0.170
+|   |   |--- sd_sig <= 0.214
+|   |   |   |--- class: False
+|   |   |--- sd_sig >  0.214
+|   |   |   |--- class: False
+|--- sig_bar >  0.092
+|   |--- phi_cx <= 0.177
+|   |   |--- q_loc0 <= 0.610
+|   |   |   |--- class: True
+|   |   |--- q_loc0 >  0.610
+|   |   |   |--- class: True
+|   |--- phi_cx >  0.177
+|   |   |--- alpha_e <= 0.225
+|   |   |   |--- class: False
+|   |   |--- alpha_e >  0.225
+|   |   |   |--- class: True
+
+== R0_coop_high rate 0.154 tree acc 0.867 base 0.846
+   KS: [('eps_x', 0.5), ('sig_bar', 0.27), ('ell', 0.25), ('gam', 0.24), ('q_loc0', 0.23), ('phi_cx', 0.23)]
+|--- eps_x <= 0.307
+|   |--- sig_bar <= 0.198
+|   |   |--- eps_x <= 0.259
+|   |   |   |--- class: False
+|   |   |--- eps_x >  0.259
+|   |   |   |--- class: False
+|   |--- sig_bar >  0.198
+|   |   |--- eps_x <= 0.169
+|   |   |   |--- class: False
+|   |   |--- eps_x >  0.169
+|   |   |   |--- class: False
+|--- eps_x >  0.307
+|   |--- ell <= 0.207
+|   |   |--- phi_cx <= 0.113
+|   |   |   |--- class: True
+|   |   |--- phi_cx >  0.113
+|   |   |   |--- class: False
+|   |--- ell >  0.207
+|   |   |--- sig_bar <= 0.127
+|   |   |   |--- class: False
+|   |   |--- sig_bar >  0.127
+|   |   |   |--- class: False
+
+== R0_reg_share_high rate 0.232 tree acc 0.849 base 0.768
+   KS: [('sig_bar', 0.48), ('s_bar', 0.32), ('phi_cx', 0.3), ('q_loc0', 0.18), ('alpha_e', 0.14), ('nu_c', 0.14)]
+|--- sig_bar <= 0.112
+|   |--- phi_cx <= 0.105
+|   |   |--- sig_bar <= 0.018
+|   |   |   |--- class: False
+|   |   |--- sig_bar >  0.018
+|   |   |   |--- class: False
+|   |--- phi_cx >  0.105
+|   |   |--- phi_cx <= 0.180
+|   |   |   |--- class: False
+|   |   |--- phi_cx >  0.180
+|   |   |   |--- class: False
+|--- sig_bar >  0.112
+|   |--- s_bar <= 0.497
+|   |   |--- alpha_e <= 0.320
+|   |   |   |--- class: False
+|   |   |--- alpha_e >  0.320
+|   |   |   |--- class: False
+|   |--- s_bar >  0.497
+|   |   |--- phi_cx <= 0.142
+|   |   |   |--- class: True
+|   |   |--- phi_cx >  0.142
+|   |   |   |--- class: False
+
+== R0_all_parties_more_legislation rate 0.947 tree acc 0.979 base 0.947
+   KS: [('kappa', 0.72), ('pi', 0.53), ('eta_X', 0.47), ('chi_c', 0.1), ('beta_bw', 0.08), ('c_dir', 0.07)]
+|--- kappa <= 0.832
+|   |--- pi <= 0.782
+|   |   |--- eta_X <= 0.777
+|   |   |   |--- class: True
+|   |   |--- eta_X >  0.777
+|   |   |   |--- class: True
+|   |--- pi >  0.782
+|   |   |--- eta_X <= 0.507
+|   |   |   |--- class: True
+|   |   |--- eta_X >  0.507
+|   |   |   |--- class: False
+|--- kappa >  0.832
+|   |--- kappa <= 0.946
+|   |   |--- eta_X <= 0.590
+|   |   |   |--- class: True
+|   |   |--- eta_X >  0.590
+|   |   |   |--- class: True
+|   |--- kappa >  0.946
+|   |   |--- pi <= 1.157
+|   |   |   |--- class: True
+|   |   |--- pi >  1.157
+|   |   |   |--- class: True
+
+== bar_helps_value rate 0.568 tree acc 0.615 base 0.568
+   KS: [('alpha_e', 0.11), ('V_R', 0.1), ('a_same', 0.1), ('c_e', 0.08), ('q_loc0', 0.07), ('nu', 0.07)]
+|--- V_R <= 0.082
+|   |--- q_loc0 <= 0.759
+|   |   |--- h_V <= 0.031
+|   |   |   |--- class: False
+|   |   |--- h_V >  0.031
+|   |   |   |--- class: False
+|   |--- q_loc0 >  0.759
+|   |   |--- class: True
+|--- V_R >  0.082
+|   |--- alpha_e <= 0.263
+|   |   |--- alpha_u <= 0.132
+|   |   |   |--- class: True
+|   |   |--- alpha_u >  0.132
+|   |   |   |--- class: False
+|   |--- alpha_e >  0.263
+|   |   |--- c_e <= 0.120
+|   |   |   |--- class: True
+|   |   |--- c_e >  0.120
+|   |   |   |--- class: True
+
+== R0_coop_ge_0.8 rate 0.082 tree acc 0.929 base 0.918
+   KS: [('eps_x', 0.56), ('ell', 0.29), ('q_loc0', 0.26), ('sig_bar', 0.26), ('s_shock', 0.26), ('phi_cx', 0.25)]
+|--- eps_x <= 0.401
+|   |--- eps_x <= 0.281
+|   |   |--- ell <= 0.063
+|   |   |   |--- class: False
+|   |   |--- ell >  0.063
+|   |   |   |--- class: False
+|   |--- eps_x >  0.281
+|   |   |--- zeta_opp <= 0.065
+|   |   |   |--- class: False
+|   |   |--- zeta_opp >  0.065
+|   |   |   |--- class: False
+|--- eps_x >  0.401
+|   |--- ell <= 0.153
+|   |   |--- D_max <= 0.322
+|   |   |   |--- class: True
+|   |   |--- D_max >  0.322
+|   |   |   |--- class: False
+|   |--- ell >  0.153
+|   |   |--- sig_bar <= 0.099
+|   |   |   |--- class: False
+|   |   |--- sig_bar >  0.099
+|   |   |   |--- class: False
+
+== bar_raises_completion rate 0.591 tree acc 0.637 base 0.591
+   KS: [('V_R', 0.12), ('sig_bar', 0.1), ('phi_cx', 0.08), ('r_run', 0.08), ('a_same', 0.07), ('eps_x', 0.07)]
+|--- V_R <= 0.092
+|   |--- q_loc0 <= 0.775
+|   |   |--- k_asp <= 4.112
+|   |   |   |--- class: False
+|   |   |--- k_asp >  4.112
+|   |   |   |--- class: True
+|   |--- q_loc0 >  0.775
+|   |   |--- class: True
+|--- V_R >  0.092
+|   |--- sig_bar <= -0.004
+|   |   |--- phi_cx <= 0.201
+|   |   |   |--- class: True
+|   |   |--- phi_cx >  0.201
+|   |   |   |--- class: False
+|   |--- sig_bar >  -0.004
+|   |   |--- c_e <= 0.190
+|   |   |   |--- class: True
+|   |   |--- c_e >  0.190
+|   |   |   |--- class: True
+
+== R15_beats_SQ_need rate 0.569 tree acc 0.758 base 0.569
+   KS: [('zeta', 0.37), ('sig_bar', 0.28), ('eta_X', 0.28), ('p_I', 0.18), ('g_TA', 0.18), ('s_bar', 0.16)]
+|--- zeta <= 0.506
+|   |--- sig_bar <= 0.128
+|   |   |--- p_I <= 0.101
+|   |   |   |--- class: False
+|   |   |--- p_I >  0.101
+|   |   |   |--- class: True
+|   |--- sig_bar >  0.128
+|   |   |--- zeta <= 0.405
+|   |   |   |--- class: True
+|   |   |--- zeta >  0.405
+|   |   |   |--- class: True
+|--- zeta >  0.506
+|   |--- eta_X <= 0.670
+|   |   |--- sig_bar <= 0.157
+|   |   |   |--- class: False
+|   |   |--- sig_bar >  0.157
+|   |   |   |--- class: False
+|   |--- eta_X >  0.670
+|   |   |--- g_TA <= 0.119
+|   |   |   |--- class: False
+|   |   |--- g_TA >  0.119
+|   |   |   |--- class: True
+

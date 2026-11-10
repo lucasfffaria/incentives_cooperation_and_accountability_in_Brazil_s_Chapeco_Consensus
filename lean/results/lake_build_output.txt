@@ -1,0 +1,39 @@
+Output of the two commands of README.md, `lake exe cache get` and `lake build`, run in this
+folder on Windows (PowerShell) on 9 October 2026, with Lean v4.20.0 (installed by elan from
+lean-toolchain) and the compiled Mathlib v4.20.0 library downloaded by the first command.
+The absolute path of the folder is shortened to ...\Replication_Package\lean; the output is
+otherwise as printed.
+
+PS ...\Replication_Package\lean> lake exe cache get
+installing leantar 0.1.15
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0                              0
+100 706.7k 100 706.7k   0      0  1.29M      0                              0
+
+Mathlib repository: leanprover-community/mathlib4
+Attempting to download 6772 file(s) from leanprover-community/mathlib4 cache
+Downloaded: 6772 file(s) [attempted 6772/6772 = 100%] (100% success)
+Decompressing 6772 file(s)
+Unpacked in 19724 ms
+Completed successfully!
+PS ...\Replication_Package\lean> lake build
+ℹ [2590/2592] Built ChapecoProofs.Audit
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:32:0: 177 declarations in the Chapeco namespace checked: none uses sorry, and none depends on an axiom other than propext, Classical.choice and Quot.sound.
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:36:0: 'Chapeco.P1.expected_mean_skill_elected' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:37:0: 'Chapeco.P1.corr_strictAntiOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:38:0: 'Chapeco.P2.proposition2_effort' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:39:0: 'Chapeco.P2.legislative_effort_rises_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:40:0: 'Chapeco.P3.proposition3' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:41:0: 'Chapeco.P3.completionGain_taylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:42:0: 'Chapeco.P4.include_iff_hurdle' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:43:0: 'Chapeco.P4.hurdle_deriv_neg_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:44:0: 'Chapeco.P5.objective_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:45:0: 'Chapeco.P5.hasDerivAt_reappointment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:46:0: 'Chapeco.P6.total_tiltGain_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:47:0: 'Chapeco.P6.hasDerivAt_winProb' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:48:0: 'Chapeco.P7.bar_lowers_map_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:49:0: 'Chapeco.P7.sanction_trap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:50:0: 'Chapeco.SP8.supplementary_proposition8' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ...\Replication_Package\lean\ChapecoProofs\Audit.lean:51:0: 'Chapeco.SP9.supplementary_proposition9' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully.
